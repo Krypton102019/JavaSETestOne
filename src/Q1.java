@@ -3,7 +3,7 @@ public class Q1 {
         int RandomNum = 8;
         int factValue = 1;
 
-        for (int i = 1; i < RandomNum; i++) {
+        for (int i = 1; i <= RandomNum; i++) {
             factValue = factValue*i;
         }
 
